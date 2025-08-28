@@ -1218,6 +1218,8 @@
           "$value": "{primary.color}"
         },
         "offset": {
+          "$type": "borderWidth",
+          "$value": "2",
           "stroke": {
             "$type": "border",
             "$value": {
@@ -1225,9 +1227,7 @@
               "width": "{focus.ring.offset}",
               "style": "solid"
             }
-          },
-          "$type": "borderWidth",
-          "$value": "2"
+          }
         },
         "shadow": {
           "$type": "boxShadow",
@@ -14551,7 +14551,7 @@
       "primary": {
         "background": {
           "$type": "color",
-          "$value": "{primary.color}"
+          "$value": "#ff9900"
         },
         "hover": {
           "background": {
@@ -14593,7 +14593,7 @@
         },
         "color": {
           "$type": "color",
-          "$value": "{primary.contrast.color}"
+          "$value": "#ffffff"
         },
         "focus": {
           "ring": {
